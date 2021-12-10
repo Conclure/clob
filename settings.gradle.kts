@@ -6,4 +6,4 @@ fun initializeProjects(vararg names: String) {
     names.forEach { project(":module-$it").name = "$projectName-$it" }
 }
 
-initializeProjects("api","bootstrap","impl-base", "impl-jda","app")
+initializeProjects("api","bootstrap","impl-base", "impl-jda","app","config")

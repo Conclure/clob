@@ -18,6 +18,7 @@ subprojects {
         testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
         testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
     }
+    buildDir = File(File(rootProject.rootDir,"out"),this.project.name)
 }
 /*
 dependencies {
